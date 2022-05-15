@@ -12,4 +12,4 @@
 
 **GitHub**
 
-*[Ссылка на проект](https://annakoby.github.io/russian-travel/)
+* [Ссылка на проект](https://annakoby.github.io/russian-travel/)
