@@ -1,12 +1,12 @@
 .cover__overlay {
   text-decoration: none;
   color: #ffffff;
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
+  max-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 0 0 0;
+  padding: 245px 0 343px 0;
   margin: 0 0 0 0;
   z-index: 1;
   position: relative;

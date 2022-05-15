@@ -5,3 +5,11 @@
   margin: 0 auto 0 auto;
   gap: 48px 40px;
 }
+
+@media screen and (max-width: 425px) {
+  .place {
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 32px;
+  }
+}
+}
