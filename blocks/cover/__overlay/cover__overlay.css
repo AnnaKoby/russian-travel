@@ -1,0 +1,27 @@
+.cover__overlay {
+  text-decoration: none;
+  color: #fff;
+  background-image: url(../../../images/cover_background.jpg);
+  background-size: cover;
+  width: 1184px;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  z-index: 1;
+  position: relative;
+}
+
+.cover__overlay::before {
+  opacity: .3;
+  position: absolute;
+  content:'';
+  background-color: #2A2C2F;
+  transition: opacity .2s;
+}
+
+.cover__overlay:hover::before {
+  opacity: .8;
+}
