@@ -1,41 +1,49 @@
 .cover__overlay {
-  text-decoration: none;
-  color: #ffffff;
-  max-width: 1184px;
-  max-height: 740px;
   display: flex;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 740px;
   flex-direction: column;
   justify-content: center;
-  padding: 245px 0 245px 0;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 0 0 0;
   margin: 0 0 0 0;
-  z-index: 1;
-  position: relative;
-  content:'';
+  background-image: url(../../../images/cover_background.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+  
+.cover__overlay::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  z-index: -1;
+  background: #2A2C2F;
+  opacity: .3;
   transition: ease-in-out 0.4s;
-  background: #2a2c2f4c;
 }
 
-.cover__overlay:hover {
-  background: #2a2c2fcc;
+.cover__overlay:hover::before {
+  opacity: .8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover__overlay {
-    max-height: 640px;
-    padding: 195px 0 195px 0;
+    min-height: 640px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .cover__overlay {
-    max-height: 480px;
-    padding: 155px 0 155px 0;
+    min-height: 480px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .cover__overlay {
-    max-height: 200px;
-    padding: 33px 0 33px 0;
+    min-height: 200px;
   }
 }
