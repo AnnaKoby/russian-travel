@@ -1,15 +1,15 @@
 .header__lang-link {
-max-width: 30px;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-text-align: right;
-margin: 0 0 0 0;
-padding-left: 18px;
-color: #ffffff;
-text-decoration: none;
-transition: ease-in-out 0.2s;
+  max-width: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  margin: 0 0 0 0;
+  padding-left: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
 }
 
 .header__lang-link:hover {
@@ -17,7 +17,7 @@ transition: ease-in-out 0.2s;
 }
 
 @media screen and (max-width: 767px) {
-  .header__lang-link{
+  .header__lang-link {
     max-width: 22px;
     font-size: 18px;
     line-height: 20px;

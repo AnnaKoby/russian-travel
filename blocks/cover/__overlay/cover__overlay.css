@@ -14,7 +14,7 @@
   background-size: cover;
   color: #ffffff;
 }
-  
+
 .cover__overlay::before {
   position: absolute;
   width: 100%;
