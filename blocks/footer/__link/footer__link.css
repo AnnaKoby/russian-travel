@@ -8,6 +8,7 @@
   text-decoration: none;
   padding-right: 18px;
   transition: ease-in-out 0.2s;
+  display: block;
 }
 
 .footer__link:hover {

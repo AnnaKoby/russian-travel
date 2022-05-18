@@ -6,3 +6,27 @@ gap: 80px;
 padding-top: 92px;
 padding-bottom: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places {
+        max-width: 720px;
+        gap: 72px;
+        padding-top: 88px;
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places {
+        max-width: 288px;
+        gap: 50px;
+        padding-top: 64px;
+        padding-bottom: 66px;
+    }
+}

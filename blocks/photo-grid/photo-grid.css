@@ -2,7 +2,7 @@
   max-width: 1184px;
   margin: 0 auto 0 auto; 
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 284px);
   justify-items: center;
   gap: 16px;
 }
@@ -10,7 +10,7 @@
 @media screen and (max-width: 1279px) {
   .photo-grid {
     max-width: 928px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 300px);
     gap: 14px;
   }
 }
@@ -18,13 +18,13 @@
 @media screen and (max-width: 1023px) {
   .photo-grid {
     max-width: 720px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 352px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .photo-grid {
     max-width: 288px;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 288px);
   }
 }
