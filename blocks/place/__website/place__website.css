@@ -2,3 +2,11 @@
   max-width: 456px;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    max-width: inherit;
+    width: calc(100% - 16px * 2);
+    justify-self: center;
+  }
+}

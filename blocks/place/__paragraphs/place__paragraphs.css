@@ -16,6 +16,7 @@
 
 @media screen and (max-width: 767px) {
     .place__paragraphs {
-        max-width: 288px;
+        max-width: calc(100% - 16px * 2);
+        justify-self: center;
     }
 }
